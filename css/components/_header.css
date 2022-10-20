@@ -29,7 +29,7 @@
     display: block;
     background-position: center;
     background-repeat: no-repeat;
-    block-size: cover;
+    background-size: cover;
 }
 
 .social-link--fb{
