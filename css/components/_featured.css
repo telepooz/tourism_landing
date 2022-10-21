@@ -1,0 +1,71 @@
+.featured{
+    background-image: url(/img/fon2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1080px;
+    
+    position: relative;
+}
+
+.featured-stories{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 35.3%;
+    background-color: rgba(17, 31, 42, 0.9);
+    }
+
+    .featured-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+       
+    }
+
+    .blog-article-category{
+        
+        font-weight: 800;
+        font-size: 11px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 15px 30px;
+        background-color: #E8594E;
+        border-radius: 100px;
+        color: #fff;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+
+    }
+
+    .blog-article-title{
+        font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+    max-width: 40%;
+    margin-bottom: 18px;
+    }
+
+    .blog-article-descr{
+        font-family: SFCompact, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #fff;
+        margin-bottom: 40px;
+        max-width: 40%;
+    }
+    
+    .blog-article-link{
+        background-color:#73AFBA;
+        display: inline-block;
+    }
+    
+    .blog-article{
+        padding-bottom: 100px;
+    }
