@@ -41,6 +41,10 @@
     transition: transform 0.3s;
 }
 
+.swiper-slide-active > .btn-reset.slide-play {
+    transform: scaleX(0.9) scaleY(0.70);
+}
+
 .swiper-slide-active .slider-title{
     transition: transform 0.3s;
     transform: translateY(0);
