@@ -10,7 +10,23 @@
 </head>
 
 <body>
-    < class="site-container">
+    <div class="site-container">
+        <div class="menu">
+            <button class="menu-close btn-reset" aria-label="close">
+                <span class="menu-close-line"></span>
+                <span class="menu-close-line"></span>
+            </button>
+            <nav class="menu-nav">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="#" class="menu-link">Become A Travel</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Featured Stories</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Featured Videos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Newsletter</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Inspirations</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="header">
             <div class="container header-container flex">
                 <ul class="header-social social">
@@ -28,7 +44,7 @@
                 </button>
             </div>
         </header>
-    
+
 
         <main class="main">
             <section class="first">
@@ -48,6 +64,8 @@
                         </form>
                         <div class="first-slider main-slider">
                             <div class="swiper-container">
+                                <button class="first-slider-btn btn-left btn-reset"></button>
+                                <button class="first-slider-btn btn-right btn-reset"></button>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide slide-top">
                                         <div class="main-slider-media ">
@@ -56,8 +74,19 @@
                                         <p class="main-slider-text">wonderful moutain</p>
                                     </div>
 
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide">
+                                        <div class="main-slider-media ">
+                                            <button class="main-slider-play btn-reset"></button>
+                                            <video src="videos/1.mp4" muted playsinline></video>
+                                        </div>
+                                        <p class="main-slider-text">wonderful moutain</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="main-slider-media ">
+                                            <img src="img/fon2.jpg" alt="moutain">
+                                        </div>
+                                        <p class="main-slider-text">wonderful moutain</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -94,11 +123,14 @@
             <section class="featured">
                 <div class="container featured-container">
                     <article class="featured-article blog-article">
-                       <a href="#" class="blog-article-category">Featured</a>
-                       <h3 class="blog-article-title">How To Fly A Private Jet On Your Next Trip</h3>
-                       <p class="blog-article-descr">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
-                        <a href="#" class="blog-article-link btn">Read Article</Article></a>
+                        <a href="#" class="blog-article-category">Featured</a>
+                        <h3 class="blog-article-title">How To Fly A Private Jet On Your Next Trip</h3>
+                        <p class="blog-article-descr">The state of Utah in the United States is home to lots of
+                            beautiful National Parks, & Bryce Canyon National Park ranks as three of the most
+                            magnificent & awe inspiring.</p>
+                        <a href="#" class="blog-article-link btn">Read Article</a>
                     </article>
+
 
                 </div>
 
@@ -165,15 +197,17 @@
             <section class="featured-videos">
                 <div class="container featured-videos-container">
                     <h2 class="featured-videos-title section-title section-title--center">Featured Videos </h2>
-                    <p class="featured-videos-descr">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
+                    <p class="featured-videos-descr">The state of Utah in the United States is home to lots of beautiful
+                        National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe
+                        inspiring.</p>
                 </div>
                 <div class="slider-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-1">
                             <button class="btn-reset slide-play"></button>
                             <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
-                        </div> 
-                        <div class="swiper-slide slide-2"> 
+                        </div>
+                        <div class="swiper-slide slide-2">
                             <button class="btn-reset slide-play"></button>
                             <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
                         </div>
@@ -181,7 +215,7 @@
                             <button class="btn-reset slide-play"></button>
                             <h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
@@ -190,22 +224,24 @@
                     <div class="newsletter-content">
                         <div class="newsletter-text">
                             <h2 class="newsletter-title section-title">Sign Up Our Newsletter</h2>
-                            <p class="newsletter-descr">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National
-                            Park ranks as three of the most magnificent.</p>
+                            <p class="newsletter-descr">The state of Utah in the United States is home to lots of
+                                beautiful National Parks, & Bryce Canyon National
+                                Park ranks as three of the most magnificent.</p>
                         </div>
-                       <form action="" class="newsletter-form subscribe-form">
-                           <input type="text" name="name" placeholder="Name" class="subscribe-form-fild">
-                           <input type="email" name="email" placeholder="Email" class="subscribe-form-fild">
-                           <input type="tel" name="tel" placeholder="Phone Number" class="subscribe-form-fild">
-                           <button class="btn btn-reset subscribe-form-btn btnsh ">Sign Up Now</button>
-                       </form>
+                        <form action="" class="newsletter-form subscribe-form">
+                            <input type="text" name="name" placeholder="Name" class="subscribe-form-fild">
+                            <input type="email" name="email" placeholder="Email" class="subscribe-form-fild">
+                            <input type="tel" name="tel" placeholder="Phone Number" class="subscribe-form-fild">
+                            <button class="btn btn-reset subscribe-form-btn btnsh ">Sign Up Now</button>
+                        </form>
                     </div>
                 </div>
             </section>
             <section class="insp">
                 <div class="container">
                     <h2 class="section-title section-title-center insp-heading">Inspiration</h2>
-                    <div class="insp-descr">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National 
+                    <div class="insp-descr">The state of Utah in the United States is home to lots of beautiful National
+                        Parks, & Bryce Canyon National
                         Park ranks as three of the most magnificent & awe inspiring.
                     </div>
                     <ul class="grid insp-list">
@@ -354,7 +390,7 @@
                         <li class="footer-item"><a href="#" class="footer-link">Resources </a></li>
                         <li class="footer-item"><a href="#" class="footer-link">Newsletter</a></li>
                         <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
-                    </ul>  
+                    </ul>
                 </nav>
                 <nav class="footer-column">
                     <h2 class="footer-title">Information</h2>
@@ -377,7 +413,8 @@
             </div>
             <div class="footer-bottom">
                 <div class="container bottom-container flex">
-                    <small class="footer-copy">© 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.</small>
+                    <small class="footer-copy">© 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass
+                        Impressions. All rights reserved.</small>
                     <ul class="footer-links">
                         <li class="footer-links-item"><a href="#" class="footer-link">Terms of Service</a></li>
                         <li class="footer-links-item"><a href="#" class="footer-link">Privacy Policy</a></li>
@@ -385,9 +422,10 @@
                 </div>
             </div>
         </footer>
+
         <script src="libs/swiper.min.js"></script>
         <script src="js/main.js"></script>
-    
+    </div>
 </body>
 
-</html>     
+</html>

@@ -67,6 +67,12 @@
     .blog-article-link{
         background-color:#73AFBA;
         display: inline-block;
+        transition: background-color 0.3s;
+    }
+    .blog-article-link:hover{
+        transition: background-color 0.3s;
+        background-color: #4196a6;
+
     }
     
     .blog-article{
