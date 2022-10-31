@@ -42,13 +42,13 @@
 .social-link--fb{
     width: 11px;
     height: 20px;
-    background-image: url(/img/fb.svg);
+    background-image: url(../../img/fb.svg);
 }
 
 .social-link--tw{
     width: 20px;
     height: 17px;
-    background-image: url(/img/tw.svg);
+    background-image: url(../../img/tw.svg);
 }
 
 .logo{

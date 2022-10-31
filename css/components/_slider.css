@@ -63,19 +63,19 @@
 }
 
 .slide-1{
-    background-image: url(/img/slidel.jpg);
+    background-image: url(../../img/slidel.jpg);
 
     
 }
 
 .slide-2{
-    background-image: url(/img/slidec.jpg);
+    background-image: url(../../img/slidec.jpg);
         
     
 }
 
 .slide-3{
-    background-image: url(/img/sliderr.jpg);
+    background-image: url(../../img/sliderr.jpg);
         
     
 }
@@ -99,7 +99,7 @@
     top: 40px;
     width: 100px;
     height: 100px;
-    background-image: url(/img/slidepl.png);
+    background-image: url(../../img/slidepl.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
